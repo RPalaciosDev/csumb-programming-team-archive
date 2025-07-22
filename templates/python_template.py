@@ -20,4 +20,13 @@ XXXXX
 """
 
 class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
+    def __init__(self):
+        pass
+
+    def function_name(self, input: List[int]) -> List[int]:
+        pass
+
+
+if __name__ == "__main__":
+    solution = Solution()
+    print(solution.function_name([1, 2, 3, 4, 5]))
