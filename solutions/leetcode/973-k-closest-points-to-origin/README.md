@@ -14,6 +14,7 @@ You may return the answer in any order. The answer is guaranteed to be unique (e
 
 **Input:**
 
+
 ```java
 points = [[1,3],[-2,2]], k = 1
 ```
@@ -56,4 +57,5 @@ The answer [[-2,4],[3,3]] would also be accepted.
 ## Constraints
 
 - `1 <= k <= points.length <= 10^4`
+
 - `-10^4 <= xi, yi <= 10^4`
