@@ -1,26 +1,26 @@
 /**
 * ===========================================================
-*     Author:        Juiceman
-*     Created:       2025-07-21
-*     Last Updated:  2025-07-21
-*     Problem:       703 - Kth Largest Element in a Stream
+*     Author:        Hugo Ruiz-Mireles
+*     Created:       2025-07-23
+*     Last Updated:  2025-07-23
+*     Problem:       1046 - Last Stone Weight
 *     Platform:      LeetCode
 *     Difficulty:    Easy
 *     Language:      C++
-*     Tags:          
+*     Tags:          Heap
 * ===========================================================
 *
 * Description:
 * --------------------
-* Design a class to find the kth largest element in a stream.
-* Note that it is the kth largest element in the sorted order, not the kth distinct element.
-* Implement the KthLargest class:
-* - KthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums.
-* - int add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.
 * 
 * Approach:
 * ___________________
-* XXXXX
+* We can use a max heap to keep track of the stones.
+* We can then pop the two heaviest stones and calculate the difference.
+* If the difference is not 0, we can push the difference back into the heap.
+* We can continue this process until there is at most one stone left.
+* If there is one stone left, we can return its weight.
+* If there are no stones left, we can return 0.
 */
 
 # include <iostream>
