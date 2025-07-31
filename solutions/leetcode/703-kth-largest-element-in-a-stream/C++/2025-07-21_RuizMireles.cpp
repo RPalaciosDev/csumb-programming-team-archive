@@ -1,6 +1,6 @@
 /**
 * ===========================================================
-*     Author:        Juiceman
+*     Author:        Hugo Ruiz-Mireles
 *     Created:       2025-07-21
 *     Last Updated:  2025-07-21
 *     Problem:       703 - Kth Largest Element in a Stream
