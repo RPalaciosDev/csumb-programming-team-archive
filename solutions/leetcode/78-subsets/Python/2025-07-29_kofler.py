@@ -26,7 +26,7 @@ APPROACH:
     answers is returned.
 
 NOTES:
-Time Complexity
+Time Complexity:
 - O(n * 2^n)
 
 Space Complexity:

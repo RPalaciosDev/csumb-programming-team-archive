@@ -19,7 +19,7 @@ APPROACH:
     size is greater than the max for the whole graph. If so, update it.
 
 NOTES:
-Time Complexity
+Time Complexity:
 - O(n)
 
 Space Complexity:
